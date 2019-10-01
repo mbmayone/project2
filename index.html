@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project 2: Educational Interactive</title>
+  </head>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="css/styles.css" rel="stylesheet">
+  <body>
+
+    <div class="page-slider">
+  <div class="prev-btn"><span class="fa fa-angle-up"></span></div>
+  <div class="next-btn"><span class="fa fa-angle-down"></span></div>
+  <div class="nav-dots">
+    <div data-slide="1" class="nav-dot"> </div>
+    <div data-slide="2" class="nav-dot"> </div>
+    <div data-slide="3" class="nav-dot"> </div>
+    <div data-slide="4" class="nav-dot"> </div>
+    <div data-slide="5" class="nav-dot"> </div>
+  </div>
+  <div data-slide="1" class="panel">
+    <div id="layer-1" class="trans-layer"></div>
+    <section id="section-1" class="section">
+      <div class="section-content">
+        <h1>How do the Oscars work?</h1>
+        <h2>The step by step process</h2>
+        <img src="images/academy_awards.png" alt="oscar trophy">
+      </div>
+    </section>
+  </div>
+  <div data-slide="2" class="panel">
+    <div id="layer-2" class="trans-layer"></div>
+    <section id="section-2" class="section">
+      <div class="section-content">
+        <h1>The Nomination Process</h1>
+        <p>There are 24 available categories, and roughly 6,000 Academy members who typically belong to a "branch" of the industry. Each member can only be in one branch—actor, film editor, etc.—and can mostly only vote for other people also in that specialty (e.g. other actors, other film editors), per the Academy's website. The exception is the Best Picture category. Once a film is eligible for nomination—meaning it's been shown in an L.A. movie theater for a week, and is more then 40 minutes long (except for Short Film)—members select their top five picks.</p>
+        <img src="images/Film-award-stub.png" alt="cinema">
+      </div>
+    </section>
+  </div>
+  <div data-slide="3" class="panel">
+    <div id="layer-3" class="trans-layer"></div>
+    <section id="section-3" class="section">
+      <div class="section-content">
+        <h1>The Selection Process</h1>
+        <p>There's a formula that spits out a number that is the bare minimum requirement for a nominee to be selected. Below is the exact math, according to People Magazine.</p>
+
+        <q>The magic number is calculated by taking the total number of ballots received for that category and dividing them by the number of possible nominees plus one, and then rounding it up to the nearest whole number.</q>
+
+        <p>Once a candidate gets to that special number, the remaining ballots are redistributed in favor of the second name on the ballot. So once one person or film has enough nominations, that name is no longer counted and the people who are counting move on to the next name on a voter's top five list and begin the process over (this is called redistributed votes). This repeats itself until there are five nominees per category. </p>
+        <img src="images/checklist.png" alt="checklist">
+      </div>
+    </section>
+  </div>
+  <div data-slide="4" class="panel">
+    <div id="layer-4" class="trans-layer"></div>
+    <section id="section-4" class="section">
+      <div class="section-content">
+        <h1>Voting and Results</h1>
+        <p>Each Academy member gets to vote in each category, only once, submitting the full ballot to the Academy within a certain timeframe and sworn to secrecy. Then, the votes are tallied up, and whoever has the most wins. From beginning to end, accounting firm PriceWaterhouseCoopers spends seven days counting the votes—each one is counted by hand, and the Oscars for most of its history has used paper ballots (although that's being phased out).</p>
+        <p>Fun fact: Up until 1950, if one nominee came within three votes of the winner, he or she ALSO won.</p>
+        <img src="images/fancy_award.png" alt="Academy Award">
+      </div>
+    </section>
+  </div>
+  <div data-slide="5" class="panel">
+    <div id="layer-5" class="trans-layer"></div>
+    <section id="section-5" class="section">
+      <div class="section-content-quiz">
+        <!-- quiz is from https://codepen.io/jchamill/pen/garoqg -->
+        <div id="quiz">
+          <div id="quiz-header">
+            <h1>Let's Take a Quiz!</h1>
+            <p class="faded">Test your knowledge.</p>
+          </div>
+          <div id="quiz-start-screen">
+            <p><a href="#" id="quiz-start-btn" class="quiz-button">Start</a></p>
+          </div>
+        </div>
+        <div class="footer">
+          <p>Information provided by: <a href="https://www.marieclaire.com/celebrity/a26469151/how-does-oscars-voting-work/" target="_blank">www.marieclaire.com</a> &nbsp;&nbsp; Images: <a href="http://pngimg.com/download/72465" target="_blank">Academy Award</a> | <a href="https://en.wikipedia.org/wiki/File:Film-award-stub.svg" target="_blank">Film and Star</a> | <a href="https://pixabay.com/images/search/checklist/" target="_blank">Checklist</a> | <a href="http://pngimg.com/download/72512" target="_blank">2nd Academy Award</a> &nbsp;&nbsp; Created by: Maggie Mayone</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="https://jchamill.github.io/jquery-quiz/jquery.quiz-min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  </body>
+</html>
